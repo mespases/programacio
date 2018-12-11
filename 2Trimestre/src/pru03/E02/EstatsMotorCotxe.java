@@ -1,5 +1,6 @@
 package pru03.E02;
 
-public class EstatsMotorCotxe {
-
+public enum EstatsMotorCotxe {
+	EnMarxa,
+	Aturat;
 }
