@@ -13,8 +13,8 @@ public class PRU03E04Temps_Miki_Espases {
 		
 	}
 
-	public int suma(int tiempo) {
-		segundos=segundos+tiempo;
+	public int suma(int horas, int minutos, int segundos) {
+		segundos=segundos+segundos;
 		
 		return segundos;
 	}

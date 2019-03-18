@@ -1,8 +1,8 @@
 package pru03.E02;
 
-public class CanviMarcha extends PRU03E02Cotxe_Miki_Espases implements InterfaceCotxe  {
+public class PRU03E02Cotxe_CamviMarcha_Miki_Espases extends PRU03E02Cotxe_Miki_Espases implements InterfaceCotxe  {
 
-	public CanviMarcha(String marca, String model, TipusCanvi tipuscanvi) {
+	public PRU03E02Cotxe_CamviMarcha_Miki_Espases(String marca, String model, TipusCanvi tipuscanvi) {
 		super(marca, model, tipuscanvi);
 		this.marca=marca;
 		this.model=model;
@@ -68,7 +68,7 @@ public class CanviMarcha extends PRU03E02Cotxe_Miki_Espases implements Interface
 
 
 public static void main(String[] args) throws Exception {
-	CanviMarcha a=new CanviMarcha("BMW", "Serie 1", TipusCanvi.CanviAutomatic);
+	PRU03E02Cotxe_CamviMarcha_Miki_Espases a=new PRU03E02Cotxe_CamviMarcha_Miki_Espases("BMW", "Serie 1", TipusCanvi.CanviAutomatic);
 	a.arrancarMotor();
 	System.out.println(a.CanviarMarxaAutomatic(1));
 
